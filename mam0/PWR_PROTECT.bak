@@ -1,9 +1,10 @@
 EESchema Schematic File Version 4
+LIBS:mam0-cache
 EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 2
+Sheet 2 3
 Title ""
 Date ""
 Rev ""
@@ -75,15 +76,13 @@ Wire Wire Line
 	5750 2500 5750 2700
 Wire Wire Line
 	5750 3250 5750 3000
-Text HLabel 6250 2500 2    50   Input ~ 0
+Text HLabel 9000 2500 2    50   Input ~ 0
 V_OUT
 Wire Wire Line
-	5750 2500 6250 2500
+	5750 2500 6500 2500
 Connection ~ 5750 2500
-Text HLabel 6250 3250 2    50   Input ~ 0
+Text HLabel 9000 3250 2    50   Input ~ 0
 GND_OUT
-Wire Wire Line
-	6250 3250 5750 3250
 $Comp
 L elements:Предохранитель FU?
 U 1 1 5DB9F8E1
@@ -103,4 +102,114 @@ Connection ~ 5750 3250
 Wire Wire Line
 	4750 3250 4500 3250
 Connection ~ 4500 3250
+$Comp
+L elements:Конденсатор_керамический C?
+U 1 1 5DBC916F
+P 6500 2800
+AR Path="/5DBC916F" Ref="C?"  Part="1" 
+AR Path="/5DB9AA7C/5DBC916F" Ref="C?"  Part="1" 
+F 0 "C?" V 6450 2950 60  0000 C CNN
+F 1 "Конденсатор_керамический" H 6600 2700 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 6500 2800 60  0001 C CNN
+F 3 "" H 6500 2800 60  0001 C CNN
+F 4 "10 мкФ/6,3 В" V 6650 3100 50  0000 C CNN "Номинал"
+F 5 "С111" H 6500 2800 50  0001 C CNN "УГО"
+	1    6500 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L elements:Конденсатор_керамический C?
+U 1 1 5DBC91F5
+P 7250 2800
+AR Path="/5DBC91F5" Ref="C?"  Part="1" 
+AR Path="/5DB9AA7C/5DBC91F5" Ref="C?"  Part="1" 
+F 0 "C?" V 7200 2950 60  0000 C CNN
+F 1 "Конденсатор_керамический" H 7350 2700 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 7250 2800 60  0001 C CNN
+F 3 "" H 7250 2800 60  0001 C CNN
+F 4 "10 мкФ/6,3 В" V 7400 3100 50  0000 C CNN "Номинал"
+F 5 "С111" H 7250 2800 50  0001 C CNN "УГО"
+	1    7250 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6500 2750 6500 2500
+Connection ~ 6500 2500
+Wire Wire Line
+	6500 2500 7250 2500
+Wire Wire Line
+	7250 2750 7250 2500
+Wire Wire Line
+	7250 2900 7250 3250
+Wire Wire Line
+	7250 3250 6500 3250
+Wire Wire Line
+	6500 2900 6500 3250
+Connection ~ 6500 3250
+Wire Wire Line
+	6500 3250 5750 3250
+Text Notes 6500 2450 1    50   ~ 0
+На микроконтроллер (VCC)
+Text Notes 7250 2450 1    50   ~ 0
+На микроконтроллер (VCC)
+Wire Wire Line
+	8750 2500 9000 2500
+Wire Wire Line
+	8750 3250 9000 3250
+$Comp
+L elements:Конденсатор_керамический C?
+U 1 1 5DC347F0
+P 8000 2800
+AR Path="/5DC347F0" Ref="C?"  Part="1" 
+AR Path="/5DB9AA7C/5DC347F0" Ref="C?"  Part="1" 
+F 0 "C?" V 7950 2950 60  0000 C CNN
+F 1 "Конденсатор_керамический" H 8100 2700 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 8000 2800 60  0001 C CNN
+F 3 "" H 8000 2800 60  0001 C CNN
+F 4 "10 мкФ/6,3 В" V 8150 3100 50  0000 C CNN "Номинал"
+F 5 "С111" H 8000 2800 50  0001 C CNN "УГО"
+	1    8000 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8000 2750 8000 2500
+Wire Wire Line
+	8000 2900 8000 3250
+Wire Wire Line
+	8000 2500 7250 2500
+Connection ~ 7250 2500
+Wire Wire Line
+	7250 3250 8000 3250
+Connection ~ 7250 3250
+Text Notes 8000 2450 1    50   ~ 0
+На микроконтроллер (AVCC)
+$Comp
+L elements:Конденсатор_керамический C?
+U 1 1 5DC60698
+P 8750 2800
+AR Path="/5DC60698" Ref="C?"  Part="1" 
+AR Path="/5DB9AA7C/5DC60698" Ref="C?"  Part="1" 
+F 0 "C?" V 8700 2950 60  0000 C CNN
+F 1 "Конденсатор_керамический" H 8850 2700 60  0001 C CNN
+F 2 "N_RLC:Конденсатор_SMD_0603" H 8750 2800 60  0001 C CNN
+F 3 "" H 8750 2800 60  0001 C CNN
+F 4 "10 мкФ/6,3 В" V 8900 3100 50  0000 C CNN "Номинал"
+F 5 "С111" H 8750 2800 50  0001 C CNN "УГО"
+	1    8750 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8750 2750 8750 2500
+Wire Wire Line
+	8750 2900 8750 3250
+Wire Wire Line
+	8750 2500 8000 2500
+Connection ~ 8750 2500
+Connection ~ 8000 2500
+Wire Wire Line
+	8000 3250 8750 3250
+Connection ~ 8000 3250
+Connection ~ 8750 3250
+Text Notes 8750 2450 1    50   ~ 0
+На интерфейс RS485
 $EndSCHEMATC
