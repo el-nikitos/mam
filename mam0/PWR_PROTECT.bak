@@ -19,8 +19,8 @@ L elements:Предохранитель FU?
 U 1 1 5DB9C847
 P 5150 2500
 AR Path="/5DB9C847" Ref="FU?"  Part="1" 
-AR Path="/5DB9AA7C/5DB9C847" Ref="FU?"  Part="1" 
-F 0 "FU?" H 5200 2650 60  0000 C CNN
+AR Path="/5DB9AA7C/5DB9C847" Ref="FU1"  Part="1" 
+F 0 "FU1" H 5200 2650 60  0000 C CNN
 F 1 "Предохранитель" H 5150 2350 60  0000 C CNN
 F 2 "N_RLC:Предохранитель_SMD_1812" H 5150 2500 60  0001 C CNN
 F 3 "" H 5150 2500 60  0001 C CNN
@@ -32,8 +32,8 @@ L elements:Диод_шоттки VD?
 U 1 1 5DB9C84D
 P 5750 3000
 AR Path="/5DB9C84D" Ref="VD?"  Part="1" 
-AR Path="/5DB9AA7C/5DB9C84D" Ref="VD?"  Part="1" 
-F 0 "VD?" V 5946 2897 50  0000 R CNN
+AR Path="/5DB9AA7C/5DB9C84D" Ref="VD2"  Part="1" 
+F 0 "VD2" V 5946 2897 50  0000 R CNN
 F 1 "Диод_шоттки" V 5855 2897 50  0000 R CNN
 F 2 "N_VD_HL:Диод_S13_SOD-123" H 5650 3000 50  0001 C CNN
 F 3 "" H 5650 3000 50  0001 C CNN
@@ -45,8 +45,8 @@ L elements:Конденсатор_керамический C?
 U 1 1 5DB9C855
 P 4500 2800
 AR Path="/5DB9C855" Ref="C?"  Part="1" 
-AR Path="/5DB9AA7C/5DB9C855" Ref="C?"  Part="1" 
-F 0 "C?" V 4480 2888 60  0000 L CNN
+AR Path="/5DB9AA7C/5DB9C855" Ref="C6"  Part="1" 
+F 0 "C6" V 4480 2888 60  0000 L CNN
 F 1 "Конденсатор_керамический" H 4600 2700 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 4500 2800 60  0001 C CNN
 F 3 "" H 4500 2800 60  0001 C CNN
@@ -88,8 +88,8 @@ L elements:Предохранитель FU?
 U 1 1 5DB9F8E1
 P 5150 3250
 AR Path="/5DB9F8E1" Ref="FU?"  Part="1" 
-AR Path="/5DB9AA7C/5DB9F8E1" Ref="FU?"  Part="1" 
-F 0 "FU?" H 5150 3400 60  0000 C CNN
+AR Path="/5DB9AA7C/5DB9F8E1" Ref="FU2"  Part="1" 
+F 0 "FU2" H 5150 3400 60  0000 C CNN
 F 1 "Предохранитель" H 5150 3100 60  0000 C CNN
 F 2 "N_RLC:Предохранитель_SMD_1812" H 5150 3250 60  0001 C CNN
 F 3 "" H 5150 3250 60  0001 C CNN
@@ -107,8 +107,8 @@ L elements:Конденсатор_керамический C?
 U 1 1 5DBC916F
 P 6500 2800
 AR Path="/5DBC916F" Ref="C?"  Part="1" 
-AR Path="/5DB9AA7C/5DBC916F" Ref="C?"  Part="1" 
-F 0 "C?" V 6450 2950 60  0000 C CNN
+AR Path="/5DB9AA7C/5DBC916F" Ref="C7"  Part="1" 
+F 0 "C7" V 6450 2950 60  0000 C CNN
 F 1 "Конденсатор_керамический" H 6600 2700 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 6500 2800 60  0001 C CNN
 F 3 "" H 6500 2800 60  0001 C CNN
@@ -122,8 +122,8 @@ L elements:Конденсатор_керамический C?
 U 1 1 5DBC91F5
 P 7250 2800
 AR Path="/5DBC91F5" Ref="C?"  Part="1" 
-AR Path="/5DB9AA7C/5DBC91F5" Ref="C?"  Part="1" 
-F 0 "C?" V 7200 2950 60  0000 C CNN
+AR Path="/5DB9AA7C/5DBC91F5" Ref="C8"  Part="1" 
+F 0 "C8" V 7200 2950 60  0000 C CNN
 F 1 "Конденсатор_керамический" H 7350 2700 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 7250 2800 60  0001 C CNN
 F 3 "" H 7250 2800 60  0001 C CNN
@@ -161,8 +161,8 @@ L elements:Конденсатор_керамический C?
 U 1 1 5DC347F0
 P 8000 2800
 AR Path="/5DC347F0" Ref="C?"  Part="1" 
-AR Path="/5DB9AA7C/5DC347F0" Ref="C?"  Part="1" 
-F 0 "C?" V 7950 2950 60  0000 C CNN
+AR Path="/5DB9AA7C/5DC347F0" Ref="C9"  Part="1" 
+F 0 "C9" V 7950 2950 60  0000 C CNN
 F 1 "Конденсатор_керамический" H 8100 2700 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 8000 2800 60  0001 C CNN
 F 3 "" H 8000 2800 60  0001 C CNN
@@ -188,8 +188,8 @@ L elements:Конденсатор_керамический C?
 U 1 1 5DC60698
 P 8750 2800
 AR Path="/5DC60698" Ref="C?"  Part="1" 
-AR Path="/5DB9AA7C/5DC60698" Ref="C?"  Part="1" 
-F 0 "C?" V 8700 2950 60  0000 C CNN
+AR Path="/5DB9AA7C/5DC60698" Ref="C10"  Part="1" 
+F 0 "C10" V 8700 2950 60  0000 C CNN
 F 1 "Конденсатор_керамический" H 8850 2700 60  0001 C CNN
 F 2 "N_RLC:Конденсатор_SMD_0603" H 8750 2800 60  0001 C CNN
 F 3 "" H 8750 2800 60  0001 C CNN
